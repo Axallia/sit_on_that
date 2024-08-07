@@ -1,0 +1,27 @@
+{
+	#type of operetion with name_value. Can be set to "DEFAULT", to make it use folder name.
+	#there can be 4 types of values:
+	#ADD_SUFFIX
+	#ADD_PREFFIX
+	#SET_NAME
+	#DEFAULT
+	"type": "DEFAULT",
+	
+	#value with combines with pack name by instructions set in previous variable.
+	#can be set to whatever you want, except for incompatable with your opereting sysytem ones.
+	"name_value": "",
+
+	"banned_extentions": [
+		"bak",
+		"py",
+		"zip",
+		"txt",
+		"toremove",
+		""
+	],
+
+	"banned_keywords": [
+		"base",
+		"&n"
+	]
+}

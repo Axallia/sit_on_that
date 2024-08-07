@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"type": "minecraft:armor_stand",
+								"nbt": "{Tags:[\"sit_on_that.sit_place\"]}"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "sit_on_that:sit/subtick.display_sitting_message"
+	},
+	"sends_telemetry_event": false
+}

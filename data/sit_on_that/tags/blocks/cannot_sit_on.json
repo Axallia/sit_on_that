@@ -1,0 +1,27 @@
+{
+    "values": [
+        "air",
+        "cave_air",
+        "void_air",
+        "#wool_carpets",
+        "moss_carpet",
+        "water",
+        "lava",
+        "lily_pad",
+        "#small_flowers",
+        "#tall_flowers",
+        "short_grass",
+        "tall_grass",
+        "fern",
+        "large_fern",
+        "vine",
+        "torch",
+        "wall_torch",
+        "soul_torch",
+        "soul_wall_torch",
+        "redstone_torch",
+        "redstone_wall_torch",
+        "lantern",
+        "soul_lantern"
+    ]
+}

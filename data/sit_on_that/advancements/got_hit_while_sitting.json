@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": {
+					"vehicle": {
+						"type": "minecraft:armor_stand",
+						"nbt": "{Tags:[\"sit_on_that.sit_place\"]}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "sit_on_that:sit/got_hit_while_sitting"
+	}
+}
