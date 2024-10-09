@@ -1,0 +1,1 @@
+scoreboard players set @s sit_on_that.sit_state 0

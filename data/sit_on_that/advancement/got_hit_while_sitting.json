@@ -5,7 +5,7 @@
 			"conditions": {
 				"player": {
 					"vehicle": {
-						"type": "minecraft:armor_stand",
+						"type": "minecraft:item_display",
 						"nbt": "{Tags:[\"sit_on_that.sit_place\"]}"
 					}
 				}

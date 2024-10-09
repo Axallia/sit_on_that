@@ -4,5 +4,5 @@ execute on vehicle if entity @s[tag=sit_on_that.sit_place] run function sit_on_t
 execute if score *is_still_sitting sit_on_that.BOOL matches 1 run return 0
 
 scoreboard players set @s sit_on_that.sit_state 0
-execute at @s as @e[distance=..3,type=armor_stand,tag=sit_on_that.sit_place] run function sit_on_that:sit/check_if_still_being_sit_on
+execute at @s as @e[distance=..3,type=item_display,tag=sit_on_that.sit_place] run function sit_on_that:sit/check_if_still_being_sit_on
 title @s actionbar "You are no longer sitting!"
